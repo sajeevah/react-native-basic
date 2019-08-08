@@ -21,11 +21,13 @@ import Bananas from './components/Bananas';
 import LotsOfGreetings from './components/LotsOfGreetings';
 import BlinkApp from './components/BlinkApp';
 import LotsOfStyles from './components/LotsOfStyles';
+import FixedDimensionsBasics from './components/FixedDimensionsBasics';
+import FlexDimensionsBasics from './components/FlexDimensionsBasics'
 
 const App = () => {
   return (
-    <LotsOfStyles />
-  );
+    <FlexDimensionsBasics />
+  )
 };
 
 export default App;
