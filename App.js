@@ -17,10 +17,11 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 import HelloWorldApp from './components/HelloWorldApp';
+import Bananas from './components/Bananas';
 
 const App = () => {
   return (
-    <HelloWorldApp />
+    <Bananas />
   );
 };
 
