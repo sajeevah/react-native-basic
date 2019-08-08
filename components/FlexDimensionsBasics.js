@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { AppRegistry, View } from 'react-native';
 
-export default class FlexDimensionsBasics extends Component {
+class FlexDimensionsBasics extends Component {
   render() {
     return (
       // Try removing the `flex: 1` on the parent View.
@@ -15,3 +15,5 @@ export default class FlexDimensionsBasics extends Component {
     );
   }
 }
+
+export default FlexDimensionsBasics;

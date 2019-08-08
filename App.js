@@ -10,12 +10,13 @@ import React, { Component } from 'react';
 // import FlexDirectionBasics from './components/flex/FlexDirectionBasics';
 // import JustifyContentBasics from './components/flex/JustifyContentBasics';
 // import AlignItemsBasics from './components/flex/AlignItemsBasics';
-import PizzaTranslator from './components/PizzaTranslator';
+// import PizzaTranslator from './components/PizzaTranslator';
+import ButtonBasics from './components/ButtonBasics';
 
 class App extends Component {
   render(){
     return (
-      <PizzaTranslator />
+      <ButtonBasics />
     )
   }
 };
