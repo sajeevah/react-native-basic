@@ -18,10 +18,11 @@ import {
 
 import HelloWorldApp from './components/HelloWorldApp';
 import Bananas from './components/Bananas';
+import LotsOfGreetings from './components/LotsOfGreetings';
 
 const App = () => {
   return (
-    <Bananas />
+    <LotsOfGreetings />
   );
 };
 
