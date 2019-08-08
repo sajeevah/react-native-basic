@@ -19,10 +19,11 @@ import {
 import HelloWorldApp from './components/HelloWorldApp';
 import Bananas from './components/Bananas';
 import LotsOfGreetings from './components/LotsOfGreetings';
+import BlinkApp from './components/BlinkApp';
 
 const App = () => {
   return (
-    <LotsOfGreetings />
+    <BlinkApp />
   );
 };
 
