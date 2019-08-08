@@ -20,10 +20,11 @@ import HelloWorldApp from './components/HelloWorldApp';
 import Bananas from './components/Bananas';
 import LotsOfGreetings from './components/LotsOfGreetings';
 import BlinkApp from './components/BlinkApp';
+import LotsOfStyles from './components/LotsOfStyles';
 
 const App = () => {
   return (
-    <BlinkApp />
+    <LotsOfStyles />
   );
 };
 
