@@ -6,6 +6,10 @@ class ButtonBasics extends Component {
     alert('You tapped the button!')
   }
 
+  _onPressButtonWithParam(name) {
+    alert(name + ' tapped the button!')
+  }
+
   render() {
     return (
       <View style={styles.container}>
@@ -28,7 +32,7 @@ class ButtonBasics extends Component {
             title="This looks great!"
           />
           <Button
-            onPress={this._onPressButton}
+            onPress={()=>this._onPressButtonWithParam("sajeeva")}
             title="OK!"
             color="#841584"
           />

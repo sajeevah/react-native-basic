@@ -11,12 +11,13 @@ import React, { Component } from 'react';
 // import JustifyContentBasics from './components/flex/JustifyContentBasics';
 // import AlignItemsBasics from './components/flex/AlignItemsBasics';
 // import PizzaTranslator from './components/PizzaTranslator';
-import ButtonBasics from './components/ButtonBasics';
+// import ButtonBasics from './components/ButtonBasics';
+import Touchables from './components/Touchables';
 
 class App extends Component {
   render(){
     return (
-      <ButtonBasics />
+      <Touchables />
     )
   }
 };
