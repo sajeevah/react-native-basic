@@ -15,12 +15,13 @@ import React, { Component } from 'react';
 // import Touchables from './components/Touchables';
 // import IScrolledDownAndWhatHappenedNextShockedMe from './components/IScrolledDownAndWhatHappenedNextShockedMe';
 // import FlatListBasics from './components/FlatListBasics';
-import SectionListBasics from './components/SectionListBasics';
+// import SectionListBasics from './components/SectionListBasics';
+import FetchExample from './components/FetchExample';
 
 class App extends Component {
   render(){
     return (
-      <SectionListBasics />
+      <FetchExample />
     )
   }
 };
